@@ -1,8 +1,9 @@
 scriptencoding utf-8
 set encoding=utf-8
+set guifont=Inconsolata-dz:h14
 
 syntax on
-colorscheme pete
+colorscheme herald
 let mapleader = ","
 
 " custom binds I use
@@ -111,8 +112,8 @@ set wrap
 set textwidth=79
 set formatoptions=qrn1
 
-set list
-set listchars=tab:▸\
+"set list
+"set listchars=tab:▸\
 
 " command line
 nnoremap ; :
