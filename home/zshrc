@@ -1,7 +1,7 @@
 # zsh config
 export ZSH=$HOME/.oh-my-zsh
-export ZSH_THEME="steeef"
-plugins=(git osx wd)
+export ZSH_THEME="scenic"
+plugins=(chruby git osx wd sudo)
 
 # load oh-my-zsh
 source $ZSH/oh-my-zsh.sh
