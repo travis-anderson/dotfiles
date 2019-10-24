@@ -23,7 +23,7 @@
 # Logs and databases #
 ######################
 *.log
-*.sql
+#*.sql
 *.sqlite
 
 # OS generated files #
@@ -40,6 +40,7 @@ Thumbs.db
 ########
 .htaccess
 .tags*
+tags
 
 # Rails #
 #########
@@ -82,7 +83,7 @@ tmp
 # YARD artifacts
 .yardoc
 _yardoc
-doc/
+#doc/
 
 # Floobits
 .floo
@@ -100,4 +101,7 @@ settings.yml
 # Sublime Text
 .sublime-project
 .un
+
+# configs
+/etc/local/
 

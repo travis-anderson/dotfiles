@@ -18,6 +18,12 @@
   excludesfile = ~/.gitignore
   autocrlf = input
   editor = vim
+[diff]
+  tool = vimdiff
+[difftool]
+	prompt = false
+[merge]
+  tool = vimdiff
 [include]
   path = .gitconfig.local
 [apply]
@@ -40,7 +46,5 @@
   old = red bold
   new = green bold
 [user]
-	name = AUTHORNAME 
-	email = AUTHOREMAIL 
-
-
+	name = Travis Anderson 
+	email = tanderson3@enova.com

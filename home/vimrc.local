@@ -3,7 +3,9 @@ set encoding=utf-8
 set guifont=Inconsolata-dz:h14
 
 syntax on
-colorscheme herald
+set background=dark
+" let g:pencil_neutral_code_bg = 0
+colorscheme one
 let mapleader = ","
 
 " custom binds I use
@@ -182,3 +184,10 @@ function! SetCursorPosition()
     endif
   end
 endfunction
+
+let g:syntastic_html_tidy_quiet_messages = { "level" : "warnings"  }
+let g:syntastic_enable_ruby_checker = 1
+let g:syntastic_ruby_exec = '/Users/tanderson3/.rubies/ruby-2.3.0/bin/ruby'
+
+nnoremap <leader>. :CtrlPTag<cr>
+set tags=./.tags/tags,./.tags,./tags

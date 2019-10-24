@@ -12,7 +12,7 @@ cd "$(dirname "$0")/.."
 [ "$(uname -s)" != "Darwin" ] && sudo apt-get install build-essential zsh ack vim tmux
 
 # update vim plugins
-git submodule update --init --recursive
+git submodule update
 git submodule foreach git pull
 
 # symlink files

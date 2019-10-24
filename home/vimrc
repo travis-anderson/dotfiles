@@ -5,7 +5,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 " BUNDLES
-Plugin 'gmarik/Vundle.vim'
+Plugin 'VundleVim/Vundle.vim'
 
 " general vim/commands
 Plugin 'tpope/vim-repeat'
@@ -55,8 +55,8 @@ Plugin 'jiangmiao/auto-pairs'
 Plugin 'scrooloose/nerdtree'
 Plugin 'duff/vim-bufonly'
 Plugin 'mileszs/ack.vim'
-Plugin 'kien/ctrlp.vim'
-" Plugin 'ervandew/supertab'
+Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'ervandew/supertab'
 " Plugin 'bling/vim-airline'
 " Plugin 'edkolev/tmuxline.vim'
 Plugin 'Shougo/neosnippet'
@@ -71,6 +71,7 @@ Plugin 'tpope/vim-ragtag'
 " Plugin 'tpope/vim-git'
 Plugin 'tpope/vim-fugitive'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'bartman/git-wip', {'rtp': 'vim/'}
 
 " rails
 Plugin 'tpope/vim-bundler'
